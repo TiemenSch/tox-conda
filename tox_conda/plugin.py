@@ -84,7 +84,7 @@ def get_activated_env_vars(venv):
                 ]
                 break
     else:
-        exes = ["conda", "conda.sh"]  # TODO: Does it need conda.sh?
+        exes = ["conda"]
         for exe in exes:
             if is_on_path(exe):
                 conda = exe
